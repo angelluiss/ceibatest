@@ -8,21 +8,69 @@
 
 /* Begin PBXBuildFile section */
 		CADF198628DD26FB00D95FAD /* ceibatestAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF198528DD26FB00D95FAD /* ceibatestAppApp.swift */; };
-		CADF198828DD26FB00D95FAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF198728DD26FB00D95FAD /* ContentView.swift */; };
-		CADF198A28DD26FD00D95FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADF198928DD26FD00D95FAD /* Assets.xcassets */; };
 		CADF198D28DD26FD00D95FAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADF198C28DD26FD00D95FAD /* Preview Assets.xcassets */; };
+		CADF199A28DD2B3A00D95FAD /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF199928DD2B3A00D95FAD /* NetworkingManager.swift */; };
+		CADF199C28DD2BAE00D95FAD /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF199B28DD2BAE00D95FAD /* UserModel.swift */; };
+		CADF199E28DD2BCC00D95FAD /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF199D28DD2BCC00D95FAD /* PostModel.swift */; };
+		CADF19A028DD2C1100D95FAD /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF199F28DD2C1100D95FAD /* UserDataService.swift */; };
+		CADF19A528DD311500D95FAD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19A428DD311500D95FAD /* HomeView.swift */; };
+		CADF19A728DD323D00D95FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CADF19A628DD323D00D95FAD /* Assets.xcassets */; };
+		CADF19A928DD33B700D95FAD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19A828DD33B700D95FAD /* HomeViewModel.swift */; };
+		CADF19AC28DD43B900D95FAD /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19AB28DD43B900D95FAD /* SearchBar.swift */; };
+		CADF19AE28DD43FE00D95FAD /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19AD28DD43FE00D95FAD /* Color.swift */; };
+		CADF19B028DD443B00D95FAD /* UIAplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19AF28DD443B00D95FAD /* UIAplication.swift */; };
+		CADF19B228DD559D00D95FAD /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19B128DD559D00D95FAD /* Card.swift */; };
+		CADF19B628DD739600D95FAD /* CardUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19B528DD739600D95FAD /* CardUser.swift */; };
+		CADF19B828DD756A00D95FAD /* MockUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19B728DD756A00D95FAD /* MockUser.swift */; };
+		CADF19BA28DD779700D95FAD /* CardPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19B928DD779700D95FAD /* CardPost.swift */; };
+		CADF19BD28DD854800D95FAD /* UserDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CADF19BB28DD854800D95FAD /* UserDataModel.xcdatamodeld */; };
+		CADF19BF28DE4DD500D95FAD /* CoreDataUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19BE28DE4DD500D95FAD /* CoreDataUserService.swift */; };
+		CADF19C928DE77F200D95FAD /* ceibatestApp_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19C828DE77F200D95FAD /* ceibatestApp_Tests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CADF19CA28DE77F200D95FAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CADF197A28DD26FB00D95FAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CADF198128DD26FB00D95FAD;
+			remoteInfo = ceibatestApp;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		CADF198228DD26FB00D95FAD /* ceibatestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceibatestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADF198528DD26FB00D95FAD /* ceibatestAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceibatestAppApp.swift; sourceTree = "<group>"; };
-		CADF198728DD26FB00D95FAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CADF198928DD26FD00D95FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CADF198C28DD26FD00D95FAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CADF199928DD2B3A00D95FAD /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		CADF199B28DD2BAE00D95FAD /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CADF199D28DD2BCC00D95FAD /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		CADF199F28DD2C1100D95FAD /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
+		CADF19A428DD311500D95FAD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		CADF19A628DD323D00D95FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Core/Home/ViewModels/Assets.xcassets; sourceTree = "<group>"; };
+		CADF19A828DD33B700D95FAD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		CADF19AB28DD43B900D95FAD /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		CADF19AD28DD43FE00D95FAD /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		CADF19AF28DD443B00D95FAD /* UIAplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAplication.swift; sourceTree = "<group>"; };
+		CADF19B128DD559D00D95FAD /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		CADF19B528DD739600D95FAD /* CardUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUser.swift; sourceTree = "<group>"; };
+		CADF19B728DD756A00D95FAD /* MockUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUser.swift; sourceTree = "<group>"; };
+		CADF19B928DD779700D95FAD /* CardPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPost.swift; sourceTree = "<group>"; };
+		CADF19BC28DD854800D95FAD /* UserDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserDataModel.xcdatamodel; sourceTree = "<group>"; };
+		CADF19BE28DE4DD500D95FAD /* CoreDataUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataUserService.swift; sourceTree = "<group>"; };
+		CADF19C628DE77F200D95FAD /* ceibatestApp_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceibatestApp_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CADF19C828DE77F200D95FAD /* ceibatestApp_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceibatestApp_Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		CADF197F28DD26FB00D95FAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADF19C328DE77F200D95FAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				CADF198428DD26FB00D95FAD /* ceibatestApp */,
+				CADF19C728DE77F200D95FAD /* ceibatestApp_Tests */,
 				CADF198328DD26FB00D95FAD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				CADF198228DD26FB00D95FAD /* ceibatestApp.app */,
+				CADF19C628DE77F200D95FAD /* ceibatestApp_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +102,12 @@
 			isa = PBXGroup;
 			children = (
 				CADF198528DD26FB00D95FAD /* ceibatestAppApp.swift */,
-				CADF198728DD26FB00D95FAD /* ContentView.swift */,
-				CADF198928DD26FD00D95FAD /* Assets.xcassets */,
+				CADF199328DD2AC000D95FAD /* Utilities */,
+				CADF199428DD2AC900D95FAD /* Extenxions */,
+				CADF199628DD2ADE00D95FAD /* Models */,
+				CADF199528DD2AD200D95FAD /* Services */,
+				CADF199828DD2AEF00D95FAD /* Core */,
+				CADF19A628DD323D00D95FAD /* Assets.xcassets */,
 				CADF198B28DD26FD00D95FAD /* Preview Content */,
 			);
 			path = ceibatestApp;
@@ -65,6 +119,96 @@
 				CADF198C28DD26FD00D95FAD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CADF199328DD2AC000D95FAD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CADF199928DD2B3A00D95FAD /* NetworkingManager.swift */,
+				CADF19B728DD756A00D95FAD /* MockUser.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CADF199428DD2AC900D95FAD /* Extenxions */ = {
+			isa = PBXGroup;
+			children = (
+				CADF19AD28DD43FE00D95FAD /* Color.swift */,
+				CADF19AF28DD443B00D95FAD /* UIAplication.swift */,
+			);
+			path = Extenxions;
+			sourceTree = "<group>";
+		};
+		CADF199528DD2AD200D95FAD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CADF199F28DD2C1100D95FAD /* UserDataService.swift */,
+				CADF19BE28DE4DD500D95FAD /* CoreDataUserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		CADF199628DD2ADE00D95FAD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CADF199B28DD2BAE00D95FAD /* UserModel.swift */,
+				CADF199D28DD2BCC00D95FAD /* PostModel.swift */,
+				CADF19BB28DD854800D95FAD /* UserDataModel.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CADF199828DD2AEF00D95FAD /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CADF19AA28DD43A500D95FAD /* Components */,
+				CADF19A128DD2CBC00D95FAD /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CADF19A128DD2CBC00D95FAD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CADF19A328DD2CCD00D95FAD /* Views */,
+				CADF19A228DD2CC300D95FAD /* ViewModels */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CADF19A228DD2CC300D95FAD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CADF19A828DD33B700D95FAD /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CADF19A328DD2CCD00D95FAD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CADF19A428DD311500D95FAD /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CADF19AA28DD43A500D95FAD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CADF19AB28DD43B900D95FAD /* SearchBar.swift */,
+				CADF19B128DD559D00D95FAD /* Card.swift */,
+				CADF19B528DD739600D95FAD /* CardUser.swift */,
+				CADF19B928DD779700D95FAD /* CardPost.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CADF19C728DE77F200D95FAD /* ceibatestApp_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CADF19C828DE77F200D95FAD /* ceibatestApp_Tests.swift */,
+			);
+			path = ceibatestApp_Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +231,24 @@
 			productReference = CADF198228DD26FB00D95FAD /* ceibatestApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		CADF19C528DE77F200D95FAD /* ceibatestApp_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CADF19CC28DE77F200D95FAD /* Build configuration list for PBXNativeTarget "ceibatestApp_Tests" */;
+			buildPhases = (
+				CADF19C228DE77F200D95FAD /* Sources */,
+				CADF19C328DE77F200D95FAD /* Frameworks */,
+				CADF19C428DE77F200D95FAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CADF19CB28DE77F200D95FAD /* PBXTargetDependency */,
+			);
+			name = ceibatestApp_Tests;
+			productName = ceibatestApp_Tests;
+			productReference = CADF19C628DE77F200D95FAD /* ceibatestApp_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +261,10 @@
 				TargetAttributes = {
 					CADF198128DD26FB00D95FAD = {
 						CreatedOnToolsVersion = 14.0;
+					};
+					CADF19C528DE77F200D95FAD = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = CADF198128DD26FB00D95FAD;
 					};
 				};
 			};
@@ -116,6 +282,7 @@
 			projectRoot = "";
 			targets = (
 				CADF198128DD26FB00D95FAD /* ceibatestApp */,
+				CADF19C528DE77F200D95FAD /* ceibatestApp_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -126,7 +293,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CADF198D28DD26FD00D95FAD /* Preview Assets.xcassets in Resources */,
-				CADF198A28DD26FD00D95FAD /* Assets.xcassets in Resources */,
+				CADF19A728DD323D00D95FAD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CADF19C428DE77F200D95FAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,12 +311,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CADF198828DD26FB00D95FAD /* ContentView.swift in Sources */,
+				CADF19A028DD2C1100D95FAD /* UserDataService.swift in Sources */,
+				CADF19A528DD311500D95FAD /* HomeView.swift in Sources */,
+				CADF199A28DD2B3A00D95FAD /* NetworkingManager.swift in Sources */,
+				CADF19AE28DD43FE00D95FAD /* Color.swift in Sources */,
+				CADF19A928DD33B700D95FAD /* HomeViewModel.swift in Sources */,
+				CADF199E28DD2BCC00D95FAD /* PostModel.swift in Sources */,
+				CADF19AC28DD43B900D95FAD /* SearchBar.swift in Sources */,
+				CADF19BF28DE4DD500D95FAD /* CoreDataUserService.swift in Sources */,
+				CADF19BA28DD779700D95FAD /* CardPost.swift in Sources */,
+				CADF19B228DD559D00D95FAD /* Card.swift in Sources */,
+				CADF19B628DD739600D95FAD /* CardUser.swift in Sources */,
+				CADF199C28DD2BAE00D95FAD /* UserModel.swift in Sources */,
+				CADF19B028DD443B00D95FAD /* UIAplication.swift in Sources */,
+				CADF19BD28DD854800D95FAD /* UserDataModel.xcdatamodeld in Sources */,
+				CADF19B828DD756A00D95FAD /* MockUser.swift in Sources */,
 				CADF198628DD26FB00D95FAD /* ceibatestAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CADF19C228DE77F200D95FAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADF19C928DE77F200D95FAD /* ceibatestApp_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CADF19CB28DE77F200D95FAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CADF198128DD26FB00D95FAD /* ceibatestApp */;
+			targetProxy = CADF19CA28DE77F200D95FAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CADF198E28DD26FD00D95FAD /* Debug */ = {
@@ -317,6 +521,42 @@
 			};
 			name = Release;
 		};
+		CADF19CD28DE77F200D95FAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QDLG9PS6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ceiba.ceibatestApp-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceibatestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ceibatestApp";
+			};
+			name = Debug;
+		};
+		CADF19CE28DE77F200D95FAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6QDLG9PS6U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ceiba.ceibatestApp-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceibatestApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ceibatestApp";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -338,7 +578,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		CADF19CC28DE77F200D95FAD /* Build configuration list for PBXNativeTarget "ceibatestApp_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CADF19CD28DE77F200D95FAD /* Debug */,
+				CADF19CE28DE77F200D95FAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CADF19BB28DD854800D95FAD /* UserDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CADF19BC28DD854800D95FAD /* UserDataModel.xcdatamodel */,
+			);
+			currentVersion = CADF19BC28DD854800D95FAD /* UserDataModel.xcdatamodel */;
+			path = UserDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CADF197A28DD26FB00D95FAD /* Project object */;
 }

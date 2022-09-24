@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ceibatestAppApp: App {
+    @StateObject private var vm = HomeViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
+                .environmentObject(vm)
         }
     }
 }
