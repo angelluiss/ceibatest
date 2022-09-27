@@ -15,7 +15,7 @@ class HomeViewModel: ObservableObject {
   
     @Published var allUser: [UserModel] = []
     @Published var allPost: [PostModel] = []
-//    @Published var userCoreData: [UserEntity] = []
+    @Published var userCoreData: [UserEntity] = []
   
     @Published var isLoading: Bool = false
 
@@ -35,7 +35,7 @@ class HomeViewModel: ObservableObject {
     func addSubscribers() {
         
         // Subscribe to Web Service for data users
-
+        if (coreDataUserService.savedEntities.count <= 0 ){
             userDataService.$allUsers
                 
                 .sink { [weak self] (returnedUsers) in
@@ -49,7 +49,7 @@ class HomeViewModel: ObservableObject {
                     }
                 }
                 .store(in: &cancellables)
-
+        }else{
             // Subscribe to Core Data Local for data users
             /* // MARK: Detalle de Core Data para devolver a la vista
              Sorry no pude transformar el type
@@ -71,10 +71,16 @@ class HomeViewModel: ObservableObject {
                  .store(in: &cancellables)
              /////////////
             */
-
-        
-        
-        
+            
+            coreDataUserService.$savedEntities
+                .sink { [weak self] (returnedUsers) in
+                    guard let self = self else { return }
+                    self.userCoreData = returnedUsers
+                    print(returnedUsers)
+                }
+                .store(in: &cancellables)
+        }
+            
         
     }
     

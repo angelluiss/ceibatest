@@ -26,6 +26,7 @@
 		CADF19BD28DD854800D95FAD /* UserDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CADF19BB28DD854800D95FAD /* UserDataModel.xcdatamodeld */; };
 		CADF19BF28DE4DD500D95FAD /* CoreDataUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19BE28DE4DD500D95FAD /* CoreDataUserService.swift */; };
 		CADF19C928DE77F200D95FAD /* ceibatestApp_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19C828DE77F200D95FAD /* ceibatestApp_Tests.swift */; };
+		CADF19D028E2E9E100D95FAD /* CardCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADF19CF28E2E9E100D95FAD /* CardCoreData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		CADF19BE28DE4DD500D95FAD /* CoreDataUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataUserService.swift; sourceTree = "<group>"; };
 		CADF19C628DE77F200D95FAD /* ceibatestApp_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceibatestApp_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CADF19C828DE77F200D95FAD /* ceibatestApp_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ceibatestApp_Tests.swift; sourceTree = "<group>"; };
+		CADF19CF28E2E9E100D95FAD /* CardCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCoreData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -199,6 +201,7 @@
 				CADF19B128DD559D00D95FAD /* Card.swift */,
 				CADF19B528DD739600D95FAD /* CardUser.swift */,
 				CADF19B928DD779700D95FAD /* CardPost.swift */,
+				CADF19CF28E2E9E100D95FAD /* CardCoreData.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADF19D028E2E9E100D95FAD /* CardCoreData.swift in Sources */,
 				CADF19A028DD2C1100D95FAD /* UserDataService.swift in Sources */,
 				CADF19A528DD311500D95FAD /* HomeView.swift in Sources */,
 				CADF199A28DD2B3A00D95FAD /* NetworkingManager.swift in Sources */,
